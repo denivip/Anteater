@@ -1,0 +1,310 @@
+/* This file is part of Anteater.
+ 
+ Anteater is free software: you can redistribute
+ it under the terms of our license: http://www.redant.com/anteater/license
+ 
+ Anteater is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  
+ See our license: http://www.redant.com/anteater/license for more details.
+
+  main.css
+  Anteater
+
+  Created by Peter Nash on 26/06/2011
+  Copyright 2011 Red Ant Mobile. All rights reserved.
+*/
+
+body{
+background:#ededee;
+font-family:Arial;
+color:#888888;
+width:900px;
+margin:auto;
+
+}
+
+ul{
+padding:0;
+margin:0;
+}
+li{
+list-style-type:none;
+display: inline; 
+padding-right:20px;
+}
+a {
+text-decoration:none;
+color:#6d6e71
+} 
+a:hover,a:focus{
+text-decoration:underline;
+}
+div.content-area{
+background:white;
+margin:10 10px;
+padding:8px;
+}
+div.header{
+margin-top:0px;
+margin-bottom:20px;
+}
+
+div.header img{
+vertical-align:middle;
+width:30px;
+}
+
+div.header span.title{
+margin-left:5px;
+font-size:14px;
+text-transform:lowercase;
+color:#666666;
+}
+img.form-overview-window{
+width:120px;
+float:left;
+padding-left:100px;
+}
+
+div.form-overview-button-summary{
+float:right;
+width:60%;
+}
+img.form-overview-control{
+max-height:200px;
+}
+img.form-screenshot{
+width:200px;
+float:left;
+}
+img.form-view-screenshot{
+float:left;
+margin:20px;
+
+}
+
+div.form-contents {
+float:left;
+margin:20px;
+margin-top:100px;
+}
+
+div.form-contents ul li{
+width:120px;
+display:block;
+}
+div.inactive-content{
+display:block;
+}
+div.inactive-content img{
+max-height:20px;
+padding-left:20px;
+}
+
+div.footer{
+font-size:11px;
+padding:5px;
+color:#666666;
+margin-top:20px;
+margin-bottom:0px;
+
+bottom:0px;
+}
+div.header ul.links{
+float:right;
+font-size:12px;
+margin-top:4px;
+}
+div.footer ul.links{
+float:right;
+}
+tr#more-results-row{
+text-transform:lowercase;
+text-align:center;
+width:100%;
+font-size:0.9em;
+}
+
+
+div.build-options{
+
+margin-top:10px;
+padding-top:5px;
+border-top: 1px solid #888888;
+}
+div#app-overview{
+padding:10 5%;
+}
+div.memory-graph{
+margin-top:20px;
+}
+div#app-overview img#app-icon{
+width:40px;
+vertical-align:middle;
+}
+
+div#app-overview .app-name{
+color: #888888;
+font-size:25px;
+padding-left:10px;
+}
+
+div#results-table, div#form-use{
+padding:10 5%;
+}
+img.header-watermark{
+height:100px;
+opacity:0.05;
+position:absolute;
+z-index:-1;
+}
+img.test-watermark {
+	left: -61px;
+    margin-top: 14px;
+    opacity: 0.05;
+    position: absolute;
+    width: 256px;
+} 
+
+div.test-results{
+position:relative;
+
+ }
+ 
+div#results-table table, div#form-use table{
+width:100%;
+border-collapse:collapse;
+text-align:left;
+}
+.form-button{
+width:200px;
+float:left;
+padding:20px;
+}
+.form-button img.form-view-screenshot{
+margin:0px;
+margin-bottom:10px;
+}
+.form-detail img.form-screenshot{
+padding-right:20px;
+}
+table th{
+
+border-bottom: 2px solid #888888;
+
+}
+div.form-test-results{
+
+padding-top:15px;
+padding-bottom:15px;
+
+border-bottom: 1px solid #888888;
+}
+div.test-options{
+border-top: 1px solid #888888;
+}
+td{border-bottom: 1px solid #888888;}
+
+div#results-table td.actions,div#results-table th.actions{
+width:10px !important;
+}
+div.build-details{
+float:right;
+font-size:15px;
+}
+img.view-details{
+padding-left:5px;
+}
+
+        table { border-collapse:collapse;}
+        table ul { margin:10px 0 10px 40px; padding:0px;}
+        table th { background:#F0F0F0  repeat-x scroll center left; padding:7px 15px;}
+        table td {  padding:7px 15px; }
+        table tr.odd td { background:#fff url(row_bkg.png) repeat-x scroll center left; cursor:pointer; }
+        table div.arrow { background:transparent url(../resources/arrows.png) no-repeat scroll 0px -16px; width:16px; height:16px; display:block;}
+        table div.up { background-position:0px 0px;}
+ 
+div.test-results{
+text-align:center;
+}
+.test-results-breakdown{
+font-size:16px;
+
+}
+.test-results-breakdown ul li{
+padding-right:40px;
+padding-left:40px;
+}
+.test-results-breakdown, .test-results-detail{
+padding:10px !important;
+padding-right:20px !important;
+border-bottom: 1px solid #888888;
+}
+.test-results-detail {
+font-size:14px;
+}
+.test-results-detail div span{
+width:45%;
+display:block;
+float:left;
+text-align:left;
+padding-top:5px !important;
+padding-bottom:5px !important;
+}
+a.test-option{
+background:url(../resources/arrow-right-icon-small.png) no-repeat right;
+padding-right:20px;
+font-size:14px;
+}
+
+.overview-pass,.overview-fail,.pass,.fail,.traffic-green,.traffic-amber,.traffic-red{
+padding-left:20px;
+padding-top:4px;
+padding-bottom:4px;
+}
+.overview-pass{background:url(../resources/tick-icon-small.png) no-repeat left;}
+.overview-fail{background:url(../resources/warning-icon-small.png) no-repeat left;}
+.pass{background:url(../resources/tick-icon.png) no-repeat left;}
+.fail{background:url(../resources/warning-icon.png) no-repeat left;}
+.traffic-green{background:url(../resources/traffic-lights-green-icon.png) no-repeat left;}
+.traffic-amber{background:url(../resources/traffic-lights-yellow-icon.png) no-repeat left;}
+.traffic-red{background:url(../resources/traffic-lights-red-icon.png) no-repeat left;}
+
+div.test-results-exception{
+padding:10px;
+padding-top:5px;
+
+}
+div.test-results-exception h4{
+padding:0px;
+padding-right:5px;
+margin:0px;
+float:left;
+
+}
+div.test-results-exception .crash{
+background:url(../resources/warning-icon.png) no-repeat top;
+float:left;
+font-size:20px;
+font-weight:bold;
+padding:10px;
+padding-top:35px;
+margin-top:90px;
+}
+div.test-results-exception-detail{
+text-align:left;
+padding-bottom:10px;
+
+}
+
+img.screenshot{
+max-width:125px;
+padding:10px;
+float:left;
+}
+img.screenshot-button{
+max-width:30px;
+padding: 100 10px;
+float:left;
+}

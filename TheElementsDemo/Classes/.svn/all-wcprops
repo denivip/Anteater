@@ -1,0 +1,167 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/Mobile/!svn/ver/1809/AntEater/SupportingFiles/TheElementsDemo/Classes
+END
+AtomicElementTableViewCell.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/Mobile/!svn/ver/1809/AntEater/SupportingFiles/TheElementsDemo/Classes/AtomicElementTableViewCell.h
+END
+ElementsSortedBySymbolDataSource.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/Mobile/!svn/ver/1809/AntEater/SupportingFiles/TheElementsDemo/Classes/ElementsSortedBySymbolDataSource.h
+END
+AtomicElementViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/Mobile/!svn/ver/1809/AntEater/SupportingFiles/TheElementsDemo/Classes/AtomicElementViewController.m
+END
+AtomicElementFlippedView.m
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/Mobile/!svn/ver/1809/AntEater/SupportingFiles/TheElementsDemo/Classes/AtomicElementFlippedView.m
+END
+AtomicElement.m
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Mobile/!svn/ver/1809/AntEater/SupportingFiles/TheElementsDemo/Classes/AtomicElement.m
+END
+PeriodicElements.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/Mobile/!svn/ver/1809/AntEater/SupportingFiles/TheElementsDemo/Classes/PeriodicElements.h
+END
+AtomicElementTableViewCell.m
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/Mobile/!svn/ver/1809/AntEater/SupportingFiles/TheElementsDemo/Classes/AtomicElementTableViewCell.m
+END
+ElementsSortedBySymbolDataSource.m
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/Mobile/!svn/ver/1809/AntEater/SupportingFiles/TheElementsDemo/Classes/ElementsSortedBySymbolDataSource.m
+END
+AtomicElementTileView.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/Mobile/!svn/ver/1809/AntEater/SupportingFiles/TheElementsDemo/Classes/AtomicElementTileView.h
+END
+PeriodicElements.m
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/Mobile/!svn/ver/1809/AntEater/SupportingFiles/TheElementsDemo/Classes/PeriodicElements.m
+END
+ElementsSortedByNameDataSource.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/Mobile/!svn/ver/1809/AntEater/SupportingFiles/TheElementsDemo/Classes/ElementsSortedByNameDataSource.h
+END
+AtomicElementTileView.m
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/Mobile/!svn/ver/1809/AntEater/SupportingFiles/TheElementsDemo/Classes/AtomicElementTileView.m
+END
+ElementsSortedByStateDataSource.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/Mobile/!svn/ver/1809/AntEater/SupportingFiles/TheElementsDemo/Classes/ElementsSortedByStateDataSource.h
+END
+ElementsSortedByAtomicNumberDataSource.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/Mobile/!svn/ver/1809/AntEater/SupportingFiles/TheElementsDemo/Classes/ElementsSortedByAtomicNumberDataSource.h
+END
+ElementsDataSourceProtocol.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/Mobile/!svn/ver/1809/AntEater/SupportingFiles/TheElementsDemo/Classes/ElementsDataSourceProtocol.h
+END
+ElementsSortedByNameDataSource.m
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/Mobile/!svn/ver/1809/AntEater/SupportingFiles/TheElementsDemo/Classes/ElementsSortedByNameDataSource.m
+END
+ElementsSortedByStateDataSource.m
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/Mobile/!svn/ver/1809/AntEater/SupportingFiles/TheElementsDemo/Classes/ElementsSortedByStateDataSource.m
+END
+TheElementsAppDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/Mobile/!svn/ver/1809/AntEater/SupportingFiles/TheElementsDemo/Classes/TheElementsAppDelegate.h
+END
+ElementsSortedByAtomicNumberDataSource.m
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/Mobile/!svn/ver/1809/AntEater/SupportingFiles/TheElementsDemo/Classes/ElementsSortedByAtomicNumberDataSource.m
+END
+TheElementsAppDelegate.m
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/Mobile/!svn/ver/1809/AntEater/SupportingFiles/TheElementsDemo/Classes/TheElementsAppDelegate.m
+END
+AtomicElementView.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/Mobile/!svn/ver/1809/AntEater/SupportingFiles/TheElementsDemo/Classes/AtomicElementView.h
+END
+ElementsTableViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/Mobile/!svn/ver/1809/AntEater/SupportingFiles/TheElementsDemo/Classes/ElementsTableViewController.h
+END
+AtomicElementViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/Mobile/!svn/ver/1809/AntEater/SupportingFiles/TheElementsDemo/Classes/AtomicElementViewController.h
+END
+AtomicElementFlippedView.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/Mobile/!svn/ver/1809/AntEater/SupportingFiles/TheElementsDemo/Classes/AtomicElementFlippedView.h
+END
+AtomicElementView.m
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/Mobile/!svn/ver/1809/AntEater/SupportingFiles/TheElementsDemo/Classes/AtomicElementView.m
+END
+AtomicElement.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Mobile/!svn/ver/1809/AntEater/SupportingFiles/TheElementsDemo/Classes/AtomicElement.h
+END
+ElementsTableViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/Mobile/!svn/ver/1809/AntEater/SupportingFiles/TheElementsDemo/Classes/ElementsTableViewController.m
+END

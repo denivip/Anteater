@@ -1,0 +1,84 @@
+<html>
+<head>
+ <link rel="shortcut icon" href="../resources/anteater-iphone-icon.png" />
+<script src="../resources/jquery.min.js" 	type="text/javascript"></script>
+<script src="../resources/date.js" 			type="text/javascript"></script>
+<script src="../resources/jquery.flot.js" 	type="text/javascript"></script>
+<link href="../resources/facebox/facebox.css" media="screen" rel="stylesheet" type="text/css" />
+<script src="../resources/facebox/facebox.js" type="text/javascript"></script>
+<link href="../resources/main.css" media="screen" rel="stylesheet" type="text/css" />
+<title>App Test Report</title>
+</head>
+<body >  
+<div class="content-area header">   
+	<a target="_blank" href="http://www.redant.com/mobile"><img alt="Red Ant" src="../resources/redant-iphone-icon.png"></a>
+	<a target="_blank" href="http://www.redant.com/anteater"><img alt="Anteater" src="../resources/anteater-iphone-icon.png"></a>
+	<span class="title">Anteater Testing Framework</span>
+	
+	<ul class="links">
+		<li><a target="_blank" href="http://www.redant.com/anteater/help">help</a></li>
+		<li><a target="_blank" href="http://www.redant.com/mobile">about us</a></li>
+	</ul>
+</div>
+
+<div class="content-area" id="app-overview">
+<img src='../resources/anteater-watermark.png' class='header-watermark'/>
+<img id="app-icon" src="../resources/Icon.png"/>
+<span class="app-name"><span id="app-name-value">Loading...</span></span>
+<div class="build-details">
+	<div id="last-outcome">Last Outcome: <span id="last-outcome-value">Loading....</span></div>
+	<div id="last-run">Last Run: <span id="last-run-value">Loading....</span></div>
+</div>
+<div class="build-options">
+	<ul>
+		<li>options:</li>
+		<li><a id='average-memory-use-show' class='test-option'>Average Memory Use</a></li>
+        <li><a id='form-use-show' class='test-option'>Form Analysis (experimental)</a></li>
+	</ul>
+</div>
+
+<script type="text/javascript">
+	$(document).ready(function() {$('#average-memory-use').hide();
+   		$('#average-memory-use-show').click(function() {
+    		$('#average-memory-use').toggle(400);
+       		return false;
+      });
+    });
+    $('#form-use-show').hide();
+    $(document).ready(function() {
+
+    	$('#form-use').hide();
+   		$('#form-use-show').click(function() {
+    		$('#form-use').toggle(400);
+       		return false;
+      });
+    });
+</script>
+	<div id="average-memory-use" >
+  		<div class="memory-graph" style="width:100%;height:300px;" id="average-memory-use-graph"></div>
+	</div>
+    
+
+    <br clear='all'/>
+</div> 
+
+<div class="content-area" id="results-table"> </div>
+
+
+<div class="content-area" id="form-use"> </div>
+    
+<div class="content-area footer">
+	&copy;&nbsp;Red Ant Mobile 2011
+	<ul class="links">
+		<li><a target="_blank" href="http://www.redant.com/anteater/privacy-policy/">privacy policy</a></li>
+        <li><a target="_blank" href="http://www.redant.com/anteater/license/">terms of use</a></li>
+	</ul>
+</div>
+
+<script src="../resources/anteater-details-view.js" type="text/javascript"></script>
+
+
+</body>
+
+</html>
+

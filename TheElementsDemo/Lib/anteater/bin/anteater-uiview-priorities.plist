@@ -1,0 +1,6 @@
+{
+	TSTabBarItem = "0.2";
+	UIScrollView = "0.05";
+	UITableView = "0.1";
+	UIWebBrowserView = "0.05";
+}

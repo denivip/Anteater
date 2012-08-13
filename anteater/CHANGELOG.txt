@@ -1,0 +1,41 @@
+This is the change log file for Anteater.
+
+30th September 2011 - anteater-0.5.0
+* removed support for triggering a view's registered UIGestureRecognizers: 		
+					UIPanGestureRecognizer
+					UILongPressGestureRecognizer
+
+These were causing problems with the auto clicker as the view just hung waiting for another click.
+
+* added view priority, by added a file called 'anteater-uiview-priorities.plist' you can tweak the priorities of views. 
+The plist should contain a class name followed by a probability (as a fraction). The view is still chosen by random, but if the class name is listed it is used with the specified probability. Never have a 0 probability as the autoclicker might get stuck in a view.
+{
+	UITableView = 0.1;
+	TSTabBarItem = 0.1;
+	UIScrollView = 0.05;
+	UIWebBrowserView = 0.05;
+}
+
+* Fixed UITableViewCells - This are now more widely supported. The inclusion of the UIPanGestureRecognizer appeared to have broken table views.
+
+* Anteater now logs all views it encounters with a list of buttons it can click. This output is useful for determining UIView priorities above.
+
+* Anteater now fails when memory or leaks are found beyond the maximum level.
+
+
+19th August 2011 - anteater-0.4.0
+* Added support for triggering a view's registered UIGestureRecognizers: 		
+					UITapGestureRecognizer
+					UIPinchGestureRecognizer
+					UIRotationGestureRecognizer 
+					UISwipeGestureRecognizer
+					UIPanGestureRecognizer
+					UILongPressGestureRecognizer
+and subclasses. We only support actions with either no or one argument being the sender. The two argument action is too ambiguous. 
+* Added command line parameter: anteater_output_path
+Usage:  xcodebuild -sdk iphonesimulator4.3 -target "TheElements" anteater_output_path="/Users/redant/Sites/anteater"
+
+11th August 2011 - anteater-beta-rc3.1
+* Fixed Sample Project to include anteater library
+* Added command line parameters: anteater_stability_test_length, anteater_stability_test_reps. 
+Usage:   xcodebuild -sdk iphonesimulator4.3 -target "TheElements" anteater_stability_test_length=40 anteater_stability_test_reps=2
