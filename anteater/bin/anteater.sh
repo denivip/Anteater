@@ -49,7 +49,7 @@ function startApp {
         quitSimulator
 		iphoneSimExecutable="${0%/*}/iphonesim"
         latestOSVersion=`echo $SDK_NAME | tr -d [a-zA-Z]`
-        "${iphoneSimExecutable}" launch  "$BUILT_PRODUCTS_DIR/$EXECUTABLE_FOLDER_PATH" $latestOSVersion&
+        "${iphoneSimExecutable}" launch  "$BUILT_PRODUCTS_DIR/$EXECUTABLE_FOLDER_PATH" --sdk $latestOSVersion&
 	fi
 
     instrumentPid=$!
